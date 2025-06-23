@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея работ - 3DPrintArt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">PolimerKKA_3Dпечать<span>Art</span></div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="gallery.html" class="active">Галерея</a></li>
+                    <!-- <li><a href="services.html">Услуги</a></li> -->
+                    <!-- <li><a href="about.html">О нас</a></li> -->
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="gallery-section">
+        <div class="container">
+            <h1 class="section-title">Галерея наших работ</h1>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Все работы</button>
+                <!-- <button class="filter-btn" data-filter="polymer">Полимерные</button> -->
+                <!-- <button class="filter-btn" data-filter="plastic">Пластиковые</button> -->
+                <!-- <button class="filter-btn" data-filter="characters">Персонажи</button> -->
+                <!-- <button class="filter-btn" data-filter="animals">Животные</button> -->
+                <button class="filter-btn" data-filter="architecture">Дитали под заказ</button>
+            </div>
+            
+            <div class="works-grid">
+                <!-- Работа 1 -->
+                <div class="work-card" data-category="polymer characters">
+                    <div class="work-image-container">
+                        <img src="images/gallery/chuzhoy.jpg" alt="Персонаж из игры" class="vertical-image">
+                        <div class="work-overlay">
+                            <h3>Персонаж из игры</h3>
+                            <p>Полимер, 15 см</p>
+                        </div>
+                    </div>
+                    <!-- <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/work-vertical2.jpg" alt="Персонаж из игры - вид сбоку">
+                    </div> -->
+                </div>
+                
+                <!-- Работа 2 -->
+                <div class="work-card" data-category="polymer characters">
+                    <div class="work-image-container">
+                        <img src="images/gallery/dewychka1.jpg" alt="Дракон" class="vertical-image">
+                        <div class="work-overlay">
+                            <h3>Персонаж из игры</h3>
+                            <p>Полимер, 20 см</p>
+                        </div>
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/dewychka2.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/dewychka3.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                </div>
+                <!-- Работа 3 -->
+                <div class="work-card" data-category="polymer characters">
+                    <div class="work-image-container">
+                        <img src="images/gallery/spaider1.jpg" alt="Дракон" class="vertical-image">
+                        <div class="work-overlay">
+                            <h3>Персонаж из игры</h3>
+                            <p>Полимер, 20 см</p>
+                        </div>
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/spaider2.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/spaider3.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                </div>
+                <!-- Работа 4 -->
+                <div class="work-card" data-category="polymer characters">
+                    <div class="work-image-container">
+                        <img src="images/gallery/wedmak1.jpg" alt="Дракон" class="vertical-image">
+                        <div class="work-overlay">
+                            <h3>Персонаж из игры</h3>
+                            <p>Полимер, 20 см</p>
+                        </div>
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/wedmak2.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/wedmak3.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                </div>
+                <!-- Работа 5 -->
+                <div class="work-card" data-category="plastic">
+                    <div class="work-image-container">
+                        <img src="images/gallery/krabiki4.jpg" alt="Дракон" class="vertical-image">
+                        <div class="work-overlay">
+                            <h3>Персонаж из игры</h3>
+                            <p>Полимер, 20 см</p>
+                        </div>
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/krabiki2.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/krabiki3.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/krabiki1.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                </div>
+                 <!-- Работа 6 -->
+                <div class="work-card" data-category="polymer characters">
+                    <div class="work-image-container">
+                        <img src="images/gallery/wolf.jpg" alt="Дракон" class="vertical-image">
+                        <div class="work-overlay">
+                            <h3>Персонаж из игры</h3>
+                            <p>Полимер, 20 см</p>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Работа 7 -->
+                <div class="work-card" data-category="polymer characters">
+                    <div class="work-image-container">
+                        <img src="images/gallery/mechnik.jpg" alt="Дракон" class="vertical-image">
+                        <div class="work-overlay">
+                            <h3>Персонаж из игры</h3>
+                            <p>Полимер, 20 см</p>
+                        </div>
+                    </div>
+                </div>
+                   <!-- Работа 8 -->
+                <div class="work-card" data-category="polymer characters">
+                    <div class="work-image-container">
+                        <img src="images/gallery/gengolf2.jpg" alt="Дракон" class="vertical-image">
+                        <div class="work-overlay">
+                            <h3>Персонаж из игры</h3>
+                            <p>Полимер, 20 см</p>
+                        </div>
+                    </div>
+                    <div class="additional-photos" style="display:none;">
+                        <img src="images/gallery/gengolf1.jpg" alt="Дракон - вид сбоку">
+                    </div>
+                </div>
+                
+                <!-- Остальные работы аналогично -->
+                ...
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно для просмотра фото -->
+    <div class="modal-overlay" id="photoModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image-container">
+                <img src="" alt="" id="modalImage">
+                <div class="photo-counter" id="photoCounter"></div>
+            </div>
+            <div class="modal-nav">
+                <button class="nav-btn prev-btn">❮</button>
+                <button class="nav-btn next-btn">❯</button>
+            </div>
+            <div class="photo-thumbnails" id="photoThumbnails"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- Колонка 1 - Лого и описание -->
+            <div class="footer-col footer-about">
+                <img src="images/logo-white.jpg" alt="3DPrintArt" class="footer-logo">
+                <p class="footer-description">Создаем эксклюзивные 3D-фигурки с высокой детализацией из качественных материалов</p>
+                <!-- <div class="footer-social">
+                    <a href="https://www.tiktok.com/@kiriechka_254?" class="social-link">Tik-Tok</a>
+                    <a href="https://vk.com/polimerkka_3dstudio" class="social-link">VK</a>
+                    <a href="https://t.me/Kinder_srprz" class="social-link">Telegram</a>
+                </div> -->
+            </div>
+
+            <!-- Колонка 2 - Навигация -->
+            <div class="footer-col">
+                <h3 class="footer-title">Навигация</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="gallery.html">Галерея работ</a></li>
+                    <!-- <li><a href="services.html">Услуги и цены</a></li> -->
+                    <!-- <li><a href="about.html">О мастерской</a></li> -->
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+
+            <!-- Колонка 3 - Контакты -->
+            <div class="footer-col">
+                <h3 class="footer-title">Контакты</h3>
+                <ul class="footer-contacts">
+                    <li>
+                        <a href="tel:+79871611401">+7 (987) 161 1401</a>
+                    </li>
+                    <li>
+                        <span>Пн-Пт: 10:00-20:00</span>
+                    </li>
+                     <li>
+                        <h2><a href="https://t.me/Kinder_srprz" class="social-link">Telegram</a></h2>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">&copy; 2023 3DPrintArt. Все права защищены.</div>
+            <div class="footer-policy">
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

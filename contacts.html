@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - PolimerKKA_3Dпечать</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">PolimerKKA_3Dпечать<span>Art</span></div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="gallery.html">Работы</a></li>
+                    <!-- <li><a href="services.html">Услуги</a></li> -->
+                    <!-- <li><a href="about.html">О нас</a></li> -->
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="contacts-section">
+        <div class="container">
+            <h1 class="section-title">Свяжитесь с нами</h1>
+            
+            <div class="contacts-grid">
+                <div class="contact-info">
+                    <h2>Контактная информация</h2>
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p>kirjyscha74ka@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div class="info-text">
+                            <h3>Телефон</h3>
+                            <p>+7 (987) 161 1401 </p>
+                        </div>
+                    </div>
+                    <!-- <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h3>Адрес</h3>
+                            <p>г. Москва, ул. 3D-печатная, д.10</p>
+                        </div>
+                    </div> -->
+                    <div class="info-item">
+                        <div class="info-icon">⏰</div>
+                        <div class="info-text">
+                            <h3>Часы работы</h3>
+                            <p>Пн-Вс: 10:00 - 20:00</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <h2>Мы в соцсетях</h2>
+                    <div class="social-buttons">
+                        <a href="https://www.tiktok.com/@kiriechka_254?" class="social-btn tiktok">Tik-Tok</a>
+                        <a href="https://vk.com/polimerkka_3dstudio" class="social-btn vk">ВКонтакте</a>
+                        <a href="https://t.me/Kinder_srprz" class="social-btn telegram">Telegram</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Форма заказа</h2>
+                    <form id="orderForm">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Интересующая услуга</label>
+                            <select id="service" name="service">
+                                <option value="basic">Базовая печать</option>
+                                <option value="premium">Премиум печать</option>
+                                <option value="exclusive">Эксклюзивный заказ</option>
+                                <option value="consultation">Консультация</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Описание заказа</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="file">Прикрепить файл (если есть)</label>
+                            <input type="file" id="file" name="file">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- Колонка 1 - Лого и описание -->
+            <div class="footer-col footer-about">
+                <img src="images/logo-white.jpg" alt="3DPrintArt" class="footer-logo">
+                <p class="footer-description">Создаем эксклюзивные 3D-фигурки с высокой детализацией из качественных материалов</p>
+                <!-- <div class="footer-social">
+                    <a href="https://www.tiktok.com/@kiriechka_254?" class="social-link">Tik-Tok</a>
+                    <a href="https://vk.com/polimerkka_3dstudio" class="social-link">VK</a>
+                    <a href="https://t.me/Kinder_srprz" class="social-link">Telegram</a>
+                </div> -->
+            </div>
+
+            <!-- Колонка 2 - Навигация -->
+            <div class="footer-col">
+                <h3 class="footer-title">Навигация</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="gallery.html">Галерея работ</a></li>
+                    <!-- <li><a href="services.html">Услуги и цены</a></li> -->
+                    <!-- <li><a href="about.html">О мастерской</a></li> -->
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+
+            <!-- Колонка 3 - Контакты -->
+            <div class="footer-col">
+                <h3 class="footer-title">Контакты</h3>
+                <ul class="footer-contacts">
+                    <li>
+                        <a href="tel:+79871611401">+7 (987) 161 1401</a>
+                    </li>
+                    <li>
+                        <span>Пн-Пт: 10:00-20:00</span>
+                    </li>
+                     <li>
+                        <h2><a href="https://t.me/Kinder_srprz" class="social-link">Telegram</a></h2>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">&copy; 2023 3DPrintArt. Все права защищены.</div>
+            <div class="footer-policy">
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/formData.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contacts.js"></script>
+</body>
+</html>
